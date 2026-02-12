@@ -5,6 +5,8 @@ namespace LuckySpin.ViewModels
     {
         public Player Player { get; set; }
         //TODO: Add  additional properties needed to pre-fill the PlayersChoice View.
+        public List<Player> Players { get; set; }
+        public List<Game> Games { get; set; }
 
     }
 }
